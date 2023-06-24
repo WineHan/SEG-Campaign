@@ -53,7 +53,7 @@ const modules = [Navigation, Pagination]
             <div class="craftsman-block">
               <img
                 class="img-fluid"
-                src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_15.jpg"
+                src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_15.jpg?v=01"
                 alt="職人夏令營"
               />
             </div>
@@ -91,7 +91,7 @@ const modules = [Navigation, Pagination]
                   <div>
                     <img
                       class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_13.jpg"
+                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_13.jpg?v=04"
                       alt=""
                       srcset=""
                     />
@@ -101,7 +101,7 @@ const modules = [Navigation, Pagination]
                   <div>
                     <img
                       class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_12.jpg"
+                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_12.jpg?v=03"
                       alt=""
                       srcset=""
                     />
@@ -111,7 +111,7 @@ const modules = [Navigation, Pagination]
                   <div>
                     <img
                       class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_11.jpg"
+                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_11.jpg?v=02"
                       alt=""
                       srcset=""
                     />
@@ -121,7 +121,7 @@ const modules = [Navigation, Pagination]
                   <div>
                     <img
                       class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_10.jpg"
+                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_10.jpg?v=01"
                       alt=""
                       srcset=""
                     />
@@ -139,7 +139,7 @@ const modules = [Navigation, Pagination]
           <p class="camp-sub-title">「發掘無限潛能，挑戰球技極限」</p>
           <img
             class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_9.jpg"
+            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_9.jpg?v=01"
             alt=""
             srcset=""
           />
@@ -150,7 +150,7 @@ const modules = [Navigation, Pagination]
           <p class="camp-sub-title">「挑戰極限，成就羽球之星」</p>
           <img
             class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_7.jpg"
+            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_7.jpg?v=01"
             alt=""
             srcset=""
           />
@@ -161,7 +161,7 @@ const modules = [Navigation, Pagination]
           <p class="camp-sub-title">「游出自信，追逐泳池的夢想」</p>
           <img
             class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_3.jpg"
+            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_3.jpg?v=01"
             alt=""
             srcset=""
           />
@@ -172,7 +172,7 @@ const modules = [Navigation, Pagination]
           <p class="camp-sub-title">「翱翔於輪下，探索直排輪世界」</p>
           <img
             class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_5.jpg"
+            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_5.jpg?v=01"
             alt=""
             srcset=""
           />
@@ -183,7 +183,7 @@ const modules = [Navigation, Pagination]
           <p class="camp-sub-title">「勇闖部落：啟發原始勇氣與智慧」</p>
           <img
             class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_1.jpg"
+            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_1.jpg?v=01"
             alt=""
             srcset=""
           />

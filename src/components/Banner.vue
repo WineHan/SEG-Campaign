@@ -15,8 +15,39 @@ const modules = [Navigation, Pagination, Autoplay]
         navigation
         :pagination="{ clickable: true }"
         :scrollbar="{ draggable: true }"
-        :autoplay="{ delay: 20000 }"
+        :autoplay="{ delay: 2000 }"
+        :loop="true"
       >
+        <swiper-slide>
+          <div>
+            <img
+              class="img-fluid banner-image"
+              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/main-banner-01.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img
+              class="img-fluid banner-image"
+              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/camp-01.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img
+              class="img-fluid banner-image"
+              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/camp-02.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </swiper-slide>
         <swiper-slide>
           <div>
             <img
@@ -27,42 +58,12 @@ const modules = [Navigation, Pagination, Autoplay]
             />
           </div>
         </swiper-slide>
-        <swiper-slide>
-          <div>
-            <img
-              class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/S__4333619.jpg"
-              alt=""
-              srcset=""
-            />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div>
-            <img
-              class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/S__4333618.jpg"
-              alt=""
-              srcset=""
-            />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div>
-            <img
-              class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/2473C78C-0B8F-4A3A-B3B6-973E0EE0DBF3.jpg"
-              alt=""
-              srcset=""
-            />
-          </div>
-        </swiper-slide>
       </swiper>
     </div>
     <img
       class="d-none d-xl-block img-fluid banner-image"
-      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/2473C78C-0B8F-4A3A-B3B6-973E0EE0DBF3.jpg"
-      alt=""
+      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/main-banner-01.jpg"
+      alt="嘻虎運動學院"
       srcset=""
     />
   </div>
