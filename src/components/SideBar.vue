@@ -23,7 +23,7 @@ const store = useStore()
       <ul class="camp-list">
         <li class="camp-list-item">
           <a @click="store.closeMenu" href="#craftsman-summer-camp-block" class="btn camp-btn">
-            職人體驗
+            冬令營
           </a>
         </li>
         <li class="camp-list-item">
@@ -33,11 +33,8 @@ const store = useStore()
           <a @click="store.closeMenu" href="#badminton-summer-camp" class="btn camp-btn">羽球</a>
         </li>
         <li class="camp-list-item">
-          <a @click="store.closeMenu" href="#swimming-summer-camp" class="btn camp-btn">游泳</a>
-        </li>
-        <li class="camp-list-item">
           <a @click="store.closeMenu" href="#inline-skating-summer-camp" class="btn camp-btn"
-            >直排輪</a
+            >雙語運動x傳統文化</a
           >
         </li>
         <li class="camp-list-item">
@@ -45,7 +42,7 @@ const store = useStore()
             @click="store.closeMenu"
             href="#tribal-adventure-summer-camp"
             class="btn camp-btn btn-new"
-            >部落冒險</a
+            >雙語運動x探索教育</a
           >
         </li>
       </ul>
@@ -67,28 +64,26 @@ const store = useStore()
   bottom: 0;
   background-color: #f5f5f5;
   z-index: 999;
-  border-radius: 50%;
-  transform: rotate(15deg);
+  border-radius: 10px;
   border: 1px solid #1c95d4;
   transition: right 0.25s ease-in-out;
 
   &.active {
-    right: -50%;
+    right: -15%;
   }
 
   .close-icon {
     cursor: pointer;
     position: absolute;
-    top: 25%;
-    left: 15%;
-    transform: rotate(-15deg);
+    top: 5%;
+    left: 10%;
   }
 
   .camp-list {
     position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: rotate(-15deg) translateY(-50%);
+    top: 15%;
+    left: 15%;
+
     list-style: none;
     padding: 0;
     margin: 0;
@@ -110,6 +105,14 @@ const store = useStore()
     bottom: 5%;
     left: 30%;
     transform: rotate(-15deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar-block {
+    &.active {
+      right: -50%;
+    }
   }
 }
 </style>

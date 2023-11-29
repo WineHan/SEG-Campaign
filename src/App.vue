@@ -10,7 +10,7 @@ import SideBar from '@/components/SideBar.vue'
   <a class="line-image-link" target="_blank" href="https://line.me/R/ti/p/%40860quxwz">
     <img
       class="img-fluid"
-      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/line.png"
+      src="./assets/images/line-icon.png"
       alt="嘻虎運動學院"
     />
   </a>

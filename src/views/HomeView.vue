@@ -14,53 +14,36 @@ const modules = [Navigation, Pagination]
   <main>
     <div class="container">
       <div class="camp-info-block">
-        <p class="camp-text">
-          今年夏天最狂歡，最多元！一場超乎想像的夏令營，融合無數精彩元素，點燃無限可能。<br />
-          快與嘻虎一起燃燒運動熱情，發現才華，結交新朋友。這個夏天，讓我們一起燃燒自己！
-        </p>
+        <p class="camp-text">嘻虎負責點燃學習的熱情，提供多元舞台，滿足孩子未知的好奇心</p>
+        <p class="camp-text">發掘寶貝潛能，在每個領域裡持續探索未來</p>
         <div class="d-flex justify-content-center align-items-center">
-          <h2 class="sub-title">2023 地表最強 夏令營</h2>
-          <img
-            class="img-fluid skates-image"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/inline-skates.png"
-            alt="嘻虎運動學院"
-          />
+          <h2 class="sub-title">2024 地表最強 冬令營</h2>
         </div>
       </div>
       <div class="summer-camp-all">
-        <p class="summer-camp-btn-info">快點選有興趣的夏令營吧</p>
-        <p class="summer-camp-btn-info">名額有限，早鳥另有優惠喔!</p>
+        <p class="summer-camp-btn-info">快點選有興趣的冬令營吧</p>
+        <p class="summer-camp-btn-info">12/31前報名 ◡̎ 享有超殺早鳥價<br />給孩子不一樣的寒假生活</p>
         <div class="summer-camp-btn-group">
-          <a href="#craftsman-summer-camp-block" class="btn camp-btn" aria-current="page"
-            >職人體驗</a
-          >
-          <a href="#table-tennis-summer-camp" class="btn camp-btn">桌球</a>
-          <a href="#badminton-summer-camp" class="btn camp-btn">羽球</a>
-          <a href="#swimming-summer-camp" class="btn camp-btn">游泳</a>
-          <a href="#inline-skating-summer-camp" class="btn camp-btn">直排輪</a>
-          <a href="#tribal-adventure-summer-camp" class="btn camp-btn btn-new">部落冒險</a>
+          <a href="#craftsman-summer-camp-block" class="btn camp-btn">冬令營</a>
+          <a href="#table-tennis-summer-camp" class="btn camp-btn">桌球營</a>
+          <a href="#badminton-summer-camp" class="btn camp-btn">羽球營</a>
+          <a href="#inline-skating-summer-camp" class="btn camp-btn">雙語運動x傳統文化</a>
+          <a href="#tribal-adventure-summer-camp" class="btn camp-btn btn-new">雙語運動x探索教育</a>
         </div>
       </div>
     </div>
     <div class="container">
       <div id="craftsman-summer-camp-block" class="camp-block">
         <div class="craftsman-summer-camp-block">
-          <h3 class="camp-title">雙語運動 & 職人夏令營</h3>
-          <p class="camp-introduction">
-            職人夏令營，結合<strong>雙語運動</strong>和<strong>職人體驗</strong>元素的夏令營企劃。旨在為幼兒提供一個充滿活力、跨文化體驗和職場體驗的夏令營活動，並強調這些經驗對幼兒未來的成長與幫助。
-          </p>
+          <p class="camp-introduction"></p>
           <div class="craftsman">
             <div class="craftsman-block">
-              <img
-                class="img-fluid"
-                src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_15.jpg?v=01"
-                alt="職人夏令營"
-              />
+              <img class="img-fluid" src="../assets/images/2023112903.jpg" alt="2024 冬令營" />
             </div>
 
             <div class="registration-phase">
               <div class="d-flex justify-content-center align-items-center mb-3">
-                <p class="registration-phase-title mb-0 me-2">職人夏令營 - 梯次資訊</p>
+                <p class="registration-phase-title mb-0 me-2">2024 冬令營 - 梯次資訊</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -91,9 +74,8 @@ const modules = [Navigation, Pagination]
                   <div>
                     <img
                       class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_13.jpg?v=04"
-                      alt=""
-                      srcset=""
+                      src="../assets/images/2023112904.jpg"
+                      alt="雙語運動x探索教育"
                     />
                   </div>
                 </swiper-slide>
@@ -101,30 +83,14 @@ const modules = [Navigation, Pagination]
                   <div>
                     <img
                       class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_12.jpg?v=03"
-                      alt=""
-                      srcset=""
+                      src="../assets/images/2023112905.jpg"
+                      alt="雙語運動x傳統文化"
                     />
                   </div>
                 </swiper-slide>
                 <swiper-slide>
                   <div>
-                    <img
-                      class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_11.jpg?v=02"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div>
-                    <img
-                      class="img-fluid"
-                      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_10.jpg?v=01"
-                      alt=""
-                      srcset=""
-                    />
+                    <img class="img-fluid" src="../assets/images/2023112906.jpg" alt="報名資訊" />
                   </div>
                 </swiper-slide>
               </swiper>
@@ -135,58 +101,39 @@ const modules = [Navigation, Pagination]
 
       <div class="camp-group">
         <div id="table-tennis-summer-camp" class="camp-block">
-          <h3 class="camp-title">桌球夏令營</h3>
+          <h3 class="camp-title">桌球冬令營</h3>
           <p class="camp-sub-title">「發掘無限潛能，挑戰球技極限」</p>
-          <img
-            class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_9.jpg?v=01"
-            alt=""
-            srcset=""
-          />
+          <img class="img-fluid" src="../assets/images/2023112907.jpg" alt="桌球冬令營" />
+        </div>
+
+        <div id="table-tennis-summer-camp" class="camp-block">
+          <h3 class="camp-title">桌球冬令營-報名資訊</h3>
+          <p class="camp-sub-title">「專業師資，豐富課程，啓蒙式教學，讓大家都能真正愛上桌球」</p>
+          <img class="img-fluid" src="../assets/images/2023112911.jpg" alt="桌球冬令營" />
         </div>
 
         <div id="badminton-summer-camp" class="camp-block">
-          <h3 class="camp-title">羽球夏令營</h3>
+          <h3 class="camp-title">羽球冬令營</h3>
           <p class="camp-sub-title">「挑戰極限，成就羽球之星」</p>
-          <img
-            class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_7.jpg?v=01"
-            alt=""
-            srcset=""
-          />
+          <img class="img-fluid" src="../assets/images/2023112908.jpg" alt="羽球冬令營" />
         </div>
 
-        <div id="swimming-summer-camp" class="camp-block">
-          <h3 class="camp-title">游泳夏令營</h3>
-          <p class="camp-sub-title">「游出自信，追逐泳池的夢想」</p>
-          <img
-            class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_3.jpg?v=01"
-            alt=""
-            srcset=""
-          />
+        <div id="badminton-summer-camp" class="camp-block">
+          <h3 class="camp-title">羽球冬令營-報名資訊</h3>
+          <p class="camp-sub-title">「專業教練團隊，品質有保障」</p>
+          <img class="img-fluid" src="../assets/images/2023112913.jpg" alt="羽球冬令營" />
         </div>
 
         <div id="inline-skating-summer-camp" class="camp-block">
-          <h3 class="camp-title">直排輪夏令營</h3>
-          <p class="camp-sub-title">「翱翔於輪下，探索直排輪世界」</p>
-          <img
-            class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_5.jpg?v=01"
-            alt=""
-            srcset=""
-          />
+          <h3 class="camp-title">雙語運動x傳統文化</h3>
+          <p class="camp-sub-title">「走出教室踏上嘻虎營隊之旅，看見教育的另一種可能」</p>
+          <img class="img-fluid" src="../assets/images/2023112909.jpg" alt="雙語運動x傳統文化" />
         </div>
 
         <div id="tribal-adventure-summer-camp" class="camp-block">
-          <h3 class="camp-title">部落冒險</h3>
-          <p class="camp-sub-title">「勇闖部落：啟發原始勇氣與智慧」</p>
-          <img
-            class="img-fluid"
-            src="https://storage.googleapis.com/seg-storage/SEG-Campaign/LINE_ALBUM_202368_230622_1.jpg?v=01"
-            alt=""
-            srcset=""
-          />
+          <h3 class="camp-title">雙語運動x探索教育</h3>
+          <p class="camp-sub-title">「豐富多元課程，全方位發展」</p>
+          <img class="img-fluid" src="../assets/images/2023112910.jpg" alt="雙語運動x探索教育" />
         </div>
       </div>
     </div>

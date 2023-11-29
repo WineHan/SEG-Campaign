@@ -22,7 +22,7 @@ const modules = [Navigation, Pagination, Autoplay]
           <div>
             <img
               class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/main-banner-01.jpg"
+              src="../assets/images/2023112902.jpg"
               alt=""
               srcset=""
             />
@@ -32,7 +32,7 @@ const modules = [Navigation, Pagination, Autoplay]
           <div>
             <img
               class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/camp-01.jpg"
+              src="../assets/images/2023112914.jpg"
               alt=""
               srcset=""
             />
@@ -42,17 +42,7 @@ const modules = [Navigation, Pagination, Autoplay]
           <div>
             <img
               class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/camp-02.jpg"
-              alt=""
-              srcset=""
-            />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div>
-            <img
-              class="img-fluid banner-image"
-              src="https://storage.googleapis.com/seg-storage/SEG-Campaign/together.jpg"
+              src="../assets/images/2023112915.jpg"
               alt=""
               srcset=""
             />
@@ -62,11 +52,20 @@ const modules = [Navigation, Pagination, Autoplay]
     </div>
     <img
       class="d-none d-xl-block img-fluid banner-image"
-      src="https://storage.googleapis.com/seg-storage/SEG-Campaign/main-banner-01.jpg"
+      src="../assets/images/2023112901.jpg"
       alt="嘻虎運動學院"
       srcset=""
     />
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+
+.summer-banner {
+  margin-top: 20px;
+}
+
+.banner-image {
+  margin: 0 auto;
+}
+</style>
