@@ -46,11 +46,6 @@ const store = useStore()
           >
         </li>
       </ul>
-      <img
-        class="sidebar-image"
-        src="https://storage.googleapis.com/seg-storage/SEG-Campaign/billiards.png"
-        alt=""
-      />
     </div>
   </div>
 </template>

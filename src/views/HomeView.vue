@@ -3,7 +3,7 @@ import Banner from '@/components/Banner.vue'
 import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 
-const onSwiper = (swiper) => {}
+const onSwiper = () => {}
 const onSlideChange = () => {}
 
 const modules = [Navigation, Pagination]
