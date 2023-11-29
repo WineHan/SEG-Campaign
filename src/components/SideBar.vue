@@ -22,25 +22,28 @@ const store = useStore()
       </svg>
       <ul class="camp-list">
         <li class="camp-list-item">
-          <a @click="store.closeMenu" href="#craftsman-summer-camp-block" class="btn camp-btn">
+          <a @click.prevent="store.closeMenu('craftsman-summer-camp-block')" class="btn camp-btn">
             冬令營
           </a>
         </li>
         <li class="camp-list-item">
-          <a @click="store.closeMenu" href="#table-tennis-summer-camp" class="btn camp-btn">桌球</a>
+          <a @click.prevent="store.closeMenu('table-tennis-summer-camp')" class="btn camp-btn">
+            桌球
+          </a>
         </li>
         <li class="camp-list-item">
-          <a @click="store.closeMenu" href="#badminton-summer-camp" class="btn camp-btn">羽球</a>
+          <a @click.prevent="store.closeMenu('badminton-summer-camp')" class="btn camp-btn">
+            羽球
+          </a>
         </li>
         <li class="camp-list-item">
-          <a @click="store.closeMenu" href="#inline-skating-summer-camp" class="btn camp-btn"
-            >雙語運動x傳統文化</a
-          >
+          <a @click.prevent="store.closeMenu('inline-skating-summer-camp')" class="btn camp-btn">
+            雙語運動x傳統文化
+          </a>
         </li>
         <li class="camp-list-item">
           <a
-            @click="store.closeMenu"
-            href="#tribal-adventure-summer-camp"
+            @click.prevent="store.closeMenu('tribal-adventure-summer-camp')"
             class="btn camp-btn btn-new"
             >雙語運動x探索教育</a
           >

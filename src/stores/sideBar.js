@@ -8,8 +8,14 @@ export const useStore = defineStore('sideBar', () => {
     this.isActive = !this.isActive
   }
 
-  function closeMenu() {
+  function closeMenu(elementId) {
     this.isActive = false
+
+    let element = document.getElementById(elementId)
+
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
   }
 
   return { isActive, clickMenu, closeMenu }
