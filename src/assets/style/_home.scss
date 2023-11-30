@@ -67,7 +67,7 @@ main {
 
         .camp-btn {
             position: relative;
-            flex: 0 1 30%;
+            flex: 0 1 40%;
             border: 1px solid #21767b;
             margin-bottom: 16px;
 
@@ -76,11 +76,6 @@ main {
             &:active {
                 background-color: #21767b;
                 color: #fff;
-            }
-
-            &:nth-child(4),
-            &:nth-child(5) {
-                flex: 0 1 45%;
             }
         }
 
@@ -114,6 +109,10 @@ main {
         line-height: 1.75;
         font-size: 14px;
         text-align: center;
+    }
+
+    .craftsman-block {
+        margin-bottom: 16px;
     }
 
     .registration-phase {
@@ -163,7 +162,7 @@ main {
 
             .camp-btn {
                 position: relative;
-                flex: 0 1 30%;
+                flex: 0 1 23%;
                 border: 1px solid #21767b;
                 margin: 0 8px 16px;
 
@@ -194,6 +193,7 @@ main {
             display: flex;
             justify-content: space-evenly;
             align-items: flex-end;
+            flex-wrap: wrap;
 
             .craftsman-block {
                 flex: 0 1 45%;

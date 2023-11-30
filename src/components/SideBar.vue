@@ -23,7 +23,7 @@ const store = useStore()
       <ul class="camp-list">
         <li class="camp-list-item">
           <a @click.prevent="store.closeMenu('craftsman-summer-camp-block')" class="btn camp-btn">
-            冬令營
+            2024-冬令營
           </a>
         </li>
         <li class="camp-list-item">
@@ -38,15 +38,8 @@ const store = useStore()
         </li>
         <li class="camp-list-item">
           <a @click.prevent="store.closeMenu('inline-skating-summer-camp')" class="btn camp-btn">
-            雙語運動x傳統文化
+            兩天一夜露營
           </a>
-        </li>
-        <li class="camp-list-item">
-          <a
-            @click.prevent="store.closeMenu('tribal-adventure-summer-camp')"
-            class="btn camp-btn btn-new"
-            >雙語運動x探索教育</a
-          >
         </li>
       </ul>
     </div>
