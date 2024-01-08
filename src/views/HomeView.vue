@@ -30,7 +30,7 @@ function scrollToElement(elementId) {
       </div>
       <div class="summer-camp-all">
         <p class="summer-camp-btn-info">快點選有興趣的冬令營吧</p>
-        <p class="summer-camp-btn-info">12/31前報名 ◡̎ 享有超殺早鳥價<br />給孩子不一樣的寒假生活</p>
+        <p class="summer-camp-btn-info">1/19 報名最後晚鳥價！！！<br />給孩子不一樣的寒假生活</p>
         <div class="summer-camp-btn-group">
           <a
             @click.prevent="scrollToElement('craftsman-summer-camp-block')"
@@ -55,16 +55,16 @@ function scrollToElement(elementId) {
           <p class="camp-introduction"></p>
           <div class="craftsman">
             <div class="craftsman-block">
-              <img class="img-fluid" src="../assets/images/2023112903.jpg" alt="2024 冬令營" />
+              <img class="img-fluid" src="../assets/images/2024010801.jpg" alt="2024 冬令營" />
             </div>
             <div class="craftsman-block">
-              <img class="img-fluid" src="../assets/images/2023112906.jpg" alt="2024 冬令營" />
+              <img class="img-fluid" src="../assets/images/2024010802.jpg" alt="2024 冬令營" />
             </div>
             <div class="craftsman-block">
               <img class="img-fluid" src="../assets/images/2023112904.jpg" alt="2024 冬令營" />
             </div>
             <div class="craftsman-block">
-              <img class="img-fluid" src="../assets/images/2023112905.jpg" alt="2024 冬令營" />
+              <img class="img-fluid" src="../assets/images/2024010803.jpg" alt="2024 冬令營" />
             </div>
             <!-- <div class="registration-phase">
               <div class="d-flex justify-content-center align-items-center mb-3">
@@ -128,25 +128,25 @@ function scrollToElement(elementId) {
         <div id="table-tennis-summer-camp" class="camp-block">
           <h3 class="camp-title">桌球冬令營</h3>
           <p class="camp-sub-title">「發掘無限潛能，挑戰球技極限」</p>
-          <img class="img-fluid" src="../assets/images/2023112907.jpg" alt="桌球冬令營" />
+          <img class="img-fluid" src="../assets/images/2024010804.jpg" alt="桌球冬令營" />
         </div>
 
         <div id="table-tennis-summer-camp" class="camp-block">
           <h3 class="camp-title">桌球冬令營-報名資訊</h3>
           <p class="camp-sub-title">「專業師資，豐富課程，啓蒙式教學，讓大家都能真正愛上桌球」</p>
-          <img class="img-fluid" src="../assets/images/2023112911.jpg" alt="桌球冬令營" />
+          <img class="img-fluid" src="../assets/images/2024010805.jpg" alt="桌球冬令營" />
         </div>
 
         <div id="badminton-summer-camp" class="camp-block">
           <h3 class="camp-title">羽球冬令營</h3>
           <p class="camp-sub-title">「挑戰極限，成就羽球之星」</p>
-          <img class="img-fluid" src="../assets/images/2023112908.jpg" alt="羽球冬令營" />
+          <img class="img-fluid" src="../assets/images/2024010806.jpg" alt="羽球冬令營" />
         </div>
 
         <div id="badminton-summer-camp" class="camp-block">
           <h3 class="camp-title">羽球冬令營-報名資訊</h3>
           <p class="camp-sub-title">「專業教練團隊，品質有保障」</p>
-          <img class="img-fluid" src="../assets/images/2023112913.jpg" alt="羽球冬令營" />
+          <img class="img-fluid" src="../assets/images/2024010807.jpg" alt="羽球冬令營" />
         </div>
 
         <div id="inline-skating-summer-camp" class="camp-block">
@@ -158,7 +158,7 @@ function scrollToElement(elementId) {
         <div id="tribal-adventure-summer-camp" class="camp-block">
           <h3 class="camp-title">露營-報名資訊</h3>
           <p class="camp-sub-title">「豐富多元課程，全方位發展」</p>
-          <img class="img-fluid" src="../assets/images/2023112910.jpg" alt="雙語運動x探索教育" />
+          <img class="img-fluid" src="../assets/images/2024010808.jpg" alt="雙語運動x探索教育" />
         </div>
       </div>
     </div>
