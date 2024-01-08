@@ -128,7 +128,7 @@ function scrollToElement(elementId) {
         <div id="table-tennis-summer-camp" class="camp-block">
           <h3 class="camp-title">桌球冬令營</h3>
           <p class="camp-sub-title">「發掘無限潛能，挑戰球技極限」</p>
-          <img class="img-fluid" src="../assets/images/2024010804.jpg" alt="桌球冬令營" />
+          <img class="img-fluid" src="../assets/images/2024010804.png?v=01" alt="桌球冬令營" />
         </div>
 
         <div id="table-tennis-summer-camp" class="camp-block">
