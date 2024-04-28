@@ -79,6 +79,9 @@ function scrollToElement(elementId) {
                     <li class="splide__slide">
                       <img class="img-fluid" src="../assets/images/0427/camp-06.jpg" alt="嘻虎運動學院" />
                     </li>
+                    <li class="splide__slide">
+                      <img class="img-fluid" src="../assets/images/0427/camp-12.jpg" alt="嘻虎運動學院" />
+                    </li>
                   </ul>
                 </div>
               </section>
@@ -90,12 +93,24 @@ function scrollToElement(elementId) {
         <div id="tribe-adventure" class="camp-block">
           <h3 class="camp-title">部落冒險2.0</h3>
           <p class="camp-sub-title">「深入部落，探索台灣傳統文化」</p>
+          <img class="img-fluid" src="../assets/images/0427/camp-13.jpg" alt="深入部落，探索台灣傳統文化" />
+        </div>
+
+        <div id="tribe-adventure" class="camp-block">
+          <h3 class="camp-title">部落冒險2.0</h3>
+          <p class="camp-sub-title">「詳細行程歡迎私訊」</p>
           <img class="img-fluid" src="../assets/images/0427/camp-07.jpg" alt="深入部落，探索台灣傳統文化" />
         </div>
 
         <div id="wild-fun" class="camp-block">
           <h3 class="camp-title">野小孩野FUN趣</h3>
           <p class="camp-sub-title">「生態教育，大自然的森林劇場」</p>
+          <img class="img-fluid" src="../assets/images/0427/camp-13.jpg" alt="生態教育，大自然的森林劇場" />
+        </div>
+
+        <div id="wild-fun" class="camp-block">
+          <h3 class="camp-title">野小孩野FUN趣</h3>
+          <p class="camp-sub-title">「詳細行程歡迎私訊」</p>
           <img class="img-fluid" src="../assets/images/0427/camp-08.jpg" alt="生態教育，大自然的森林劇場" />
         </div>
 
@@ -105,16 +120,35 @@ function scrollToElement(elementId) {
           <img class="img-fluid" src="../assets/images/0427/camp-09.jpg" alt="游泳夏令營" />
         </div>
 
+        <div id="swim-camp" class="camp-block">
+          <h3 class="camp-title">報名資訊</h3>
+          <p class="camp-sub-title">「專業教練團隊，品質有保障」</p>
+          <img class="img-fluid" src="../assets/images/0427/camp-14.jpg" alt="游泳夏令營" />
+        </div>
+
         <div id="table-tennis-camp" class="camp-block">
           <h3 class="camp-title">桌球夏令營</h3>
           <p class="camp-sub-title">「優質場地，專業訓練配套」</p>
           <img class="img-fluid" src="../assets/images/0427/camp-10.jpg" alt="桌球夏令營" />
         </div>
 
+        <div id="table-tennis-camp" class="camp-block">
+          <h3 class="camp-title">報名資訊</h3>
+          <p class="camp-sub-title">「優質場地，專業訓練配套」</p>
+          <img class="img-fluid" src="../assets/images/0427/camp-15.jpg" alt="桌球夏令營" />
+        </div>
+
         <div id="badminton-camp" class="camp-block">
           <h3 class="camp-title">羽球夏令營</h3>
           <p class="camp-sub-title">「跳動羽毛球，點燃暑假的熱情！」</p>
           <img class="img-fluid" src="../assets/images/0427/camp-11.jpg" alt="羽球夏令營" />
+        </div>
+
+
+        <div id="badminton-camp" class="camp-block">
+          <h3 class="camp-title">報名資訊</h3>
+          <p class="camp-sub-title">「跳動羽毛球，點燃暑假的熱情！」</p>
+          <img class="img-fluid" src="../assets/images/0427/camp-16.jpg" alt="羽球夏令營" />
         </div>
       </div>
     </div>
