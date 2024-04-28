@@ -1,12 +1,14 @@
+@import "@splidejs/splide/css";
+
 main {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .summer-banner {
-    .swiper-slide {
-        text-align: center;
-    }
+    margin-top: 60px;
+    margin: auto;
+    text-align: center;
 }
 
 @keyframes opacity {
@@ -26,20 +28,16 @@ main {
 
 .camp-info-block {
     padding: 16px 0;
+    text-align: center;
 
-    .camp-text {
-        letter-spacing: 0.5px;
-        line-height: 1.75;
-        font-size: 14px;
-        text-align: center;
+    .camp-info-title {
+        color: #de8286;
     }
 
-    .sub-title {
-        color: rgb(171, 65, 163);
-        margin-bottom: 0px;
-        animation-name: opacity;
-        animation-duration: 1.25s;
-        animation-iteration-count: infinite;
+    .camp-text {
+        font-size: 18px;
+        margin-bottom: 0;
+        color: #de8286;
     }
 
     .skates-image {
@@ -47,35 +45,141 @@ main {
     }
 }
 
-.summer-camp-all {
+.summer-camp-list {
+    padding-left: 0px;
+    color: #964f4c;
     text-align: center;
     margin-bottom: 24px;
 
-    .summer-camp-btn-info {
+    .summer-camp-list-info {
         margin-bottom: 0;
-        letter-spacing: 0.5px;
+        letter-spacing: 2px;
         line-height: 1.75;
         font-size: 14px;
     }
+}
+
+.summer-camp-btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .btn {
+        padding: 6px 0;
+    }
+
+    .camp-btn {
+        position: relative;
+        flex: 0 1 30%;
+        margin-bottom: 16px;
+        font-size: 14px;
+        color: #964f4c;
+        border: 1px solid #964f4c;
+    }
+
+    .camp-btn.btn-new::after {
+        content: "new";
+        position: absolute;
+        top: -14px;
+        right: 0;
+        color: red;
+    }
+}
+
+.camp-block {
+    margin-bottom: 32px;
+
+    .camp-title {
+        text-align: center;
+        color: #de8286;
+    }
+
+    .camp-sub-title {
+        text-align: center;
+        color: #964f4c;
+    }
+}
+
+.craftsman-summer-camp-block {
+    .camp-introduction {
+        line-height: 1.75;
+        font-size: 14px;
+        text-align: center;
+        color: #de8286;
+    }
+
+    .craftsman-block {
+        margin-bottom: 16px;
+    }
+
+    .registration-phase {
+        margin-top: 32px;
+
+        .splide-camp {
+            .camp-arrow {
+                background-color: transparent;
+
+                svg {
+                    fill: #de8286;
+                }
+            }
+
+            .splide__arrow--prev {
+                left: -1em;
+            }
+
+            .splide__arrow--next {
+                right: -1em;
+            }
+
+            .splide__pagination {
+                bottom: -1em;
+
+                .splide__pagination__page.is-active {
+                    background-color: #de8286;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .camp-info-block {
+        padding: 20px 0;
+
+        .camp-text {
+            font-size: 18px;
+        }
+
+        .camp-info-title {
+            padding-right: 16px;
+        }
+
+        .skates-image {
+            width: 200px;
+        }
+    }
+
+    .summer-camp-list {
+        .summer-camp-list-info {
+            font-size: 20px;
+        }
+    }
 
     .summer-camp-btn-group {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        padding-top: 16px;
+        padding-top: 24px;
+        justify-content: space-between;
 
         .camp-btn {
             position: relative;
-            flex: 0 1 40%;
-            border: 1px solid #21767b;
-            margin-bottom: 16px;
 
             &:hover,
             &:focus,
             &:active {
                 background-color: #21767b;
                 color: #fff;
+                border: none;
             }
         }
 
@@ -87,102 +191,6 @@ main {
             color: red;
         }
     }
-}
-
-.camp-block {
-    margin-bottom: 32px;
-
-    .camp-title {
-        text-align: center;
-        color: rgb(171, 65, 163);
-    }
-
-    .camp-sub-title {
-        text-align: center;
-        color: #21767b;
-    }
-}
-
-.craftsman-summer-camp-block {
-    .camp-introduction {
-        letter-spacing: 0.5px;
-        line-height: 1.75;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .craftsman-block {
-        margin-bottom: 16px;
-    }
-
-    .registration-phase {
-        margin-top: 32px;
-
-        .registration-phase-title {
-            text-align: center;
-            color: rgb(171, 65, 163);
-        }
-
-        .swiper-button-prev,
-        .swiper-button-disabled {
-            color: #21767b;
-        }
-
-        .swiper-button-next,
-        .swiper-button-disabled {
-            color: #21767b;
-        }
-    }
-}
-
-@media (min-width: 1200px) {
-    .camp-info-block {
-        padding: 32px 0;
-
-        .camp-text {
-            font-size: 20px;
-        }
-
-        .sub-title {
-            padding-right: 16px;
-        }
-
-        .skates-image {
-            width: 200px;
-        }
-    }
-
-    .summer-camp-all {
-        .summer-camp-btn-info {
-            font-size: 20px;
-        }
-
-        .summer-camp-btn-group {
-            padding-top: 24px;
-
-            .camp-btn {
-                position: relative;
-                flex: 0 1 23%;
-                border: 1px solid #21767b;
-                margin: 0 8px 16px;
-
-                &:hover,
-                &:focus,
-                &:active {
-                    background-color: #21767b;
-                    color: #fff;
-                }
-            }
-
-            .camp-btn.btn-new::after {
-                content: "new";
-                position: absolute;
-                top: -14px;
-                right: 0;
-                color: red;
-            }
-        }
-    }
 
     .craftsman-summer-camp-block {
         .camp-introduction {
@@ -191,9 +199,13 @@ main {
 
         .craftsman {
             display: flex;
-            justify-content: space-evenly;
-            align-items: flex-end;
+            justify-content: space-between;
+            align-items: flex-start;
             flex-wrap: wrap;
+
+            .craftsman-block:first-child {
+                display: none;
+            }
 
             .craftsman-block {
                 flex: 0 1 45%;
@@ -201,6 +213,7 @@ main {
             }
 
             .registration-phase {
+                margin-top: 0px;
                 flex: 0 1 45%;
                 max-width: 45%;
             }
@@ -209,7 +222,7 @@ main {
 
     .camp-group {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: flex-end;
         flex-wrap: wrap;
 
@@ -218,4 +231,8 @@ main {
             max-width: 45%;
         }
     }
+}
+
+* {
+    // outline: 1px solid red !important;
 }
