@@ -37,11 +37,9 @@ function scrollToElement(elementId) {
       <div class="camp-info-block">
         <h2 class="camp-info-title">♡ 2024 嘻虎 Fun 暑假</h2>
         <p class="camp-text">報告正式開跑！不 要 錯 過 了</p>
-        <p class="camp-text">5/31前報名即贈送 ▸SEG限量運動水壺◂</p>
         <p class="camp-text">詳細活動辦法，請私訊粉專或官方 LINE 唷!</p>
       </div>
       <ul class="summer-camp-list">
-        <li class="summer-camp-list-info">早鳥優惠開跑</li>
         <li class="summer-camp-list-info">十種不同主題營隊玩翻整個暑假</li>
         <li class="summer-camp-list-info">解放框架 回歸成為純真的孩子</li>
         <li class="summer-camp-list-info">將繽紛夏日 寫進記憶裡的迴廊</li>
@@ -66,7 +64,7 @@ function scrollToElement(elementId) {
             <div class="craftsman-block">
               <img
                 class="img-fluid"
-                src="../assets/images/0427/camp-01.jpg"
+                src="../assets/images/20240602/camp-01.jpg"
                 alt="2024 綜合型營隊"
               />
             </div>
@@ -117,7 +115,7 @@ function scrollToElement(elementId) {
                     <li class="splide__slide">
                       <img
                         class="img-fluid"
-                        src="../assets/images/20240602/camp-03.jpg"
+                        src="../assets/images/20240602/camp-03.jpg?v=1"
                         alt="嘻虎運動學院"
                       />
                     </li>
