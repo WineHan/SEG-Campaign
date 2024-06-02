@@ -117,8 +117,10 @@ main {
         margin-top: 32px;
 
         .splide-camp {
-            .camp-arrow {
+            .splide__arrow {
                 background-color: transparent;
+                top: calc(100% + 20px);
+                opacity: 1;
 
                 svg {
                     fill: #de8286;
@@ -126,15 +128,34 @@ main {
             }
 
             .splide__arrow--prev {
-                left: -1em;
+                left: 0em;
             }
 
             .splide__arrow--next {
-                right: -1em;
+                right: 0em;
             }
 
             .splide__pagination {
-                bottom: -1em;
+                bottom: -2em;
+                counter-reset: pagination-num;
+
+                .splide__pagination__page {
+                    opacity: 1;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 6px;
+                    margin: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .splide__pagination__page:before {
+                    counter-increment: pagination-num;
+                    content: counter(pagination-num);
+                    color: #fff;
+                    font-size: 14px;
+                }
 
                 .splide__pagination__page.is-active {
                     background-color: #de8286;
@@ -142,6 +163,10 @@ main {
             }
         }
     }
+}
+
+.camp-group {
+    margin-top: 48px;
 }
 
 @media (min-width: 1200px) {
